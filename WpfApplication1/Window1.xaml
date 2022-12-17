@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApplication1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="300" Width="300" ResizeMode="NoResize">
+    <Grid>
+        <RadioButton Content="Средне" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,80,0,0" GroupName="Sloznost" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Просто" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,59,0,0" GroupName="Sloznost" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Клиентура" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,122,0,0" GroupName="Sloznost" Checked="RadioButton_Checked" Unchecked="RadioButton_Unchecked"/>
+        <RadioButton Content="Профессионал" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,101,0,0" GroupName="Sloznost" Checked="RadioButton_Checked"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,225,0,0" Click="Button_Click"/>
+        <TextBox x:Name="visota" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="63" Margin="102,141,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Высота" VerticalAlignment="Top" Margin="32,143,0,0" Height="20" Width="65"/>
+        <TextBox x:Name="shirina" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="63" Margin="102,169,0,0"/>
+        <TextBox x:Name="mini" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="63" Margin="102,197,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ширина" VerticalAlignment="Top" Margin="32,172,0,0" Height="20" Width="65"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Бомбы" VerticalAlignment="Top" Margin="32,200,0,0" Height="20" Width="65"/>
+    </Grid>
+</Window>
